@@ -7,6 +7,10 @@ font-family: 'Poppins', sans-serif; */
     --default-font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 900px)
+h2 {
+    font-size: 44px;
+}
 
 h1 {
     font-family: var(--heading-font-family);
@@ -48,4 +52,12 @@ p {
 .main-element { 
     padding: 160px 20px;
     background: var(--secondary-color);
+}
+
+.strapline { 
+    font-size: 14px;
+}
+
+.text-muted { 
+    color: #6c757d!important;
 }
