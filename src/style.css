@@ -1,0 +1,78 @@
+
+:root { 
+    --branding-color: #6c63ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: 'Abril Fatface', cursive;
+    --default-font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    font-family: var(--heading-font-family);
+    color: black; 
+    font-size:86px;
+}
+
+h2 { 
+    font-family: var(--default-font-family);
+    font-size: 18px;
+}
+
+img { 
+    max-width: 50%;
+    height:auto;
+}
+
+a { 
+    font-family: var(--default-font-family);
+    font-style: italic;
+    font-size: 12px;
+}
+
+a:unvisited{ 
+    
+}
+
+.subtitle{ 
+    font-family: var(--default-font-family);
+    font-size: 20px;
+}
+
+.project-title{ 
+    font-family: var(--default-font-family);
+    font-size: 20px;
+}
+
+.radial-bk { 
+    background:  rgb(255, 247, 220);
+
+}
+
+.main-element { 
+    background: radial-gradient(905px at 4.9% 85.8%, rgb(255, 243, 242) 0.1%, rgb(255, 247, 220) 57.6%);
+    padding: 100px 20px;
+}
+
+.btn { 
+    padding: 10px 10px; 
+    background: rgb(255, 247, 220);
+    border:solid 1px black;
+    font-family: var(--default-font-family);
+}
+
+.btn:hover { 
+    background-color:white;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 900px){
+    h1{
+        font-size34px;
+    }
+
+    .subtitle, .project-title{ 
+        font-size:16px;
+    }
+
+
+}
